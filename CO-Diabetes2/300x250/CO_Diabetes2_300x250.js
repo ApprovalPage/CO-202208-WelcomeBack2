@@ -819,7 +819,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,348];
+	this.actionFrames = [0,341];
 	// timeline functions:
 	this.frame_0 = function() {
 		//if(!this.alreadyyExecuted){
@@ -831,7 +831,7 @@ if (reversed == null) { reversed = false; }
 		//gotoAndPlay(2);
 		//}
 	}
-	this.frame_348 = function() {
+	this.frame_341 = function() {
 		//if(!this.alreadyExecuted){
 		//this.alreadyExecuted=true;
 		//this.loopNum=1;
@@ -844,14 +844,14 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(348).call(this.frame_348).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(341).call(this.frame_341).wait(1));
 
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#000000").ss(1,2,0,3).p("A3WzcMAutAAAMAAAAm5MgutAAAg");
 	this.shape.setTransform(150,125);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(349));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(342));
 
 	// HS logo
 	this.instance = new lib.HS_logowhite();
@@ -859,7 +859,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(312).to({_off:false},0).to({alpha:1},20).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(305).to({_off:false},0).to({alpha:1},20).wait(17));
 
 	// CO logo
 	this.instance_1 = new lib.CO_v_white();
@@ -867,7 +867,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(312).to({_off:false},0).to({alpha:1},20).wait(17));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(305).to({_off:false},0).to({alpha:1},20).wait(17));
 
 	// CTA
 	this.instance_2 = new lib.CTA();
@@ -875,25 +875,25 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(333).to({_off:false},0).to({alpha:1},14).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(326).to({_off:false},0).to({alpha:1},14).wait(2));
 
 	// HEAD1
 	this.instance_3 = new lib.HEAD1();
 	this.instance_3.setTransform(150,171.05,1,1,0,0,0,0,24);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(63).to({alpha:0},7).wait(223).to({alpha:1},7).wait(49));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(63).to({alpha:0},7).wait(217).to({alpha:1},7).wait(48));
 
 	// BKGD-orange
 	this.instance_4 = new lib.BKGD();
 	this.instance_4.setTransform(150,182.95,1,0.1639,0,0,0,0,221.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(63).to({alpha:0},7).to({_off:true},1).wait(222).to({_off:false},0).to({alpha:1},7).wait(49));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(63).to({alpha:0},7).to({_off:true},1).wait(216).to({_off:false},0).to({alpha:1},7).wait(48));
 
 	// HEAD2
 	this.instance_5 = new lib.HEAD2();
 	this.instance_5.setTransform(150,220.05,1,1,0,0,0,0,36);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(63).to({alpha:0},7).to({_off:true},1).wait(278));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(63).to({alpha:0},7).to({_off:true},1).wait(271));
 
 	// HEAD3
 	this.instance_6 = new lib.HEAD3();
@@ -901,40 +901,40 @@ if (reversed == null) { reversed = false; }
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(70).to({_off:false},0).to({alpha:1},7).wait(209).to({alpha:0},7).to({_off:true},1).wait(55));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(70).to({_off:false},0).to({alpha:1},7).wait(202).to({alpha:0},7).to({_off:true},1).wait(55));
 
 	// BKGD-blue
 	this.instance_7 = new lib.BKGDblue();
 	this.instance_7.setTransform(150.1,198.9,1.0017,0.7703,0,0,0,0.1,67.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(349));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(342));
 
 	// PIC1
 	this.instance_8 = new lib.PIC1();
 	this.instance_8.setTransform(150,255.1,1,1,0,0,0,0,130.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(63).to({alpha:0},7).to({_off:true},1).wait(278));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(63).to({alpha:0},7).to({_off:true},1).wait(271));
 
 	// PIC2
 	this.instance_9 = new lib.PIC2();
 	this.instance_9.setTransform(150,237.1,1,1,0,0,0,0,130.1);
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(63).to({_off:false},0).wait(72).to({alpha:0},7).to({_off:true},1).wait(206));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(63).to({_off:false},0).wait(72).to({alpha:0},7).to({_off:true},1).wait(199));
 
 	// PIC3
 	this.instance_10 = new lib.PIC3();
 	this.instance_10.setTransform(150,220.5,1,1,0,0,0,0,95.5);
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(135).to({_off:false},0).wait(71).to({alpha:0},7).to({_off:true},1).wait(135));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(135).to({_off:false},0).wait(71).to({alpha:0},7).to({_off:true},1).wait(128));
 
 	// PIC4
 	this.instance_11 = new lib.PIC4();
 	this.instance_11.setTransform(150,201.4,1,1,0,0,0,0,76.4);
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(206).to({_off:false},0).wait(143));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(206).to({_off:false},0).wait(136));
 
 	this._renderFirstFrame();
 
@@ -949,8 +949,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_Diabetes2_300x250_atlas_P_1.png?1658614207990", id:"CO_Diabetes2_300x250_atlas_P_1"},
-		{src:"images/CO_Diabetes2_300x250_atlas_NP_1.jpg?1658614207990", id:"CO_Diabetes2_300x250_atlas_NP_1"}
+		{src:"images/CO_Diabetes2_300x250_atlas_P_1.png?1658615381508", id:"CO_Diabetes2_300x250_atlas_P_1"},
+		{src:"images/CO_Diabetes2_300x250_atlas_NP_1.jpg?1658615381508", id:"CO_Diabetes2_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
