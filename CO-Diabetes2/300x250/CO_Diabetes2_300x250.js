@@ -82,15 +82,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_2
-	this.instance = new lib.diabetesteethgettyimages1350000300170667a();
-	this.instance.setTransform(-152,-158,0.65,0.65);
+	// Layer_3
+	this.instance = new lib.diabetescheckgettyimages1172502652170667a();
+	this.instance.setTransform(-238,-135,0.77,0.77);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC4, new cjs.Rectangle(-152,-158,311.4,233.4), null);
+}).prototype = getMCSymbolPrototype(lib.PIC4, new cjs.Rectangle(-238,-135,391.9,261.1), null);
 
 
 (lib.PIC3 = function(mode,startPosition,loop,reversed) {
@@ -104,15 +104,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_2
-	this.instance = new lib.diabeteseyeistock1354867151();
-	this.instance.setTransform(-163,-147,0.71,0.71);
+	// Layer_3
+	this.instance = new lib.diabetesteethgettyimages1350000300170667a();
+	this.instance.setTransform(-152,-158,0.65,0.65);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC3, new cjs.Rectangle(-163,-147,323.8,220.1), null);
+}).prototype = getMCSymbolPrototype(lib.PIC3, new cjs.Rectangle(-152,-158,311.4,233.4), null);
 
 
 (lib.PIC2 = function(mode,startPosition,loop,reversed) {
@@ -126,15 +126,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_2
-	this.instance = new lib.diabetescheckgettyimages1172502652170667a();
-	this.instance.setTransform(-238,-135,0.77,0.77);
+	// Layer_3
+	this.instance = new lib.diabeteseyeistock1354867151();
+	this.instance.setTransform(-163,-147,0.71,0.71);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-238,-135,391.9,261.1), null);
+}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-163,-147,323.8,220.1), null);
 
 
 (lib.PIC1 = function(mode,startPosition,loop,reversed) {
@@ -939,7 +939,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(62,92,258.4,158.5);
+p.nominalBounds = new cjs.Rectangle(62,85,258.4,166.1);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -949,8 +949,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_Diabetes2_300x250_atlas_P_1.png?1658615381508", id:"CO_Diabetes2_300x250_atlas_P_1"},
-		{src:"images/CO_Diabetes2_300x250_atlas_NP_1.jpg?1658615381508", id:"CO_Diabetes2_300x250_atlas_NP_1"}
+		{src:"images/CO_Diabetes2_300x250_atlas_P_1.png?1659009156564", id:"CO_Diabetes2_300x250_atlas_P_1"},
+		{src:"images/CO_Diabetes2_300x250_atlas_NP_1.jpg?1659009156564", id:"CO_Diabetes2_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
