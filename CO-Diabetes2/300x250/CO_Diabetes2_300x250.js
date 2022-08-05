@@ -219,8 +219,8 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AgLAMQgFgEABgIQgBgGAFgFQAFgFAGABQAIgBAEAFQAFAFgBAGQABAHgFAFQgEAFgIgBQgGABgFgFg");
-	this.shape.setTransform(126.1,53.2);
+	this.shape.graphics.f("#FFFFFF").s().p("AgLA2QgFgFABgHQgBgIAFgEQAFgFAGAAQAIAAAEAFQAFAFgBAHQABAHgFAFQgEAEgIAAQgGAAgFgEgAgLgdQgFgFABgHQgBgHAFgFQAFgEAGAAQAIAAAEAEQAFAFgBAHQABAHgFAFQgEAFgIAAQgGAAgFgFg");
+	this.shape.setTransform(126.1,49.025);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("AAjBAIgjhdIgiBdIgRAAIgkhqQgCgGgEAAIgLAAIAAgPIA6AAIAAAPIgLAAQgHAAACAHIAZBKIAbhKQADgHgHAAIgJAAIAAgPIA4AAIAAAPIgKAAQgHAAADAHIAcBKIAZhKQABgHgGAAIgMAAIAAgPIAyAAIAAAPIgLAAQgEAAgCAGIgkBqg");
@@ -1267,8 +1267,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_Diabetes2_300x250_atlas_P_1.png?1659741252476", id:"CO_Diabetes2_300x250_atlas_P_1"},
-		{src:"images/CO_Diabetes2_300x250_atlas_NP_1.jpg?1659741252476", id:"CO_Diabetes2_300x250_atlas_NP_1"}
+		{src:"images/CO_Diabetes2_300x250_atlas_P_1.png?1659742187438", id:"CO_Diabetes2_300x250_atlas_P_1"},
+		{src:"images/CO_Diabetes2_300x250_atlas_NP_1.jpg?1659742187438", id:"CO_Diabetes2_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
