@@ -1157,7 +1157,7 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_2 = new lib.CTA();
-	this.instance_2.setTransform(142.1,429.95,1,1,0,0,0,-10.4,3.9);
+	this.instance_2.setTransform(142.1,455.95,1,1,0,0,0,-10.4,3.9);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
@@ -1173,7 +1173,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_4 = new lib.HEAD2();
 	this.instance_4.setTransform(150,388.05,1,1,0,0,0,0,36);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(63).to({alpha:0},7).to({_off:true},1).wait(361));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(63).to({alpha:0},7).to({_off:true},1).wait(306).to({_off:false},0).to({alpha:1},7).wait(48));
 
 	// HEAD3
 	this.instance_5 = new lib.HEAD3();
@@ -1262,7 +1262,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_Diabetes2_300x600_atlas_1.jpg?1660155903303", id:"CO_Diabetes2_300x600_atlas_1"}
+		{src:"images/CO_Diabetes2_300x600_atlas_1.jpg?1660171104500", id:"CO_Diabetes2_300x600_atlas_1"}
 	],
 	preloads: []
 };
