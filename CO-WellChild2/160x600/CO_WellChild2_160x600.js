@@ -936,7 +936,7 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance = new lib.CTA();
-	this.instance.setTransform(72.15,407.05,0.84,0.84,0,0,0,-10.3,4);
+	this.instance.setTransform(72.15,435.05,0.84,0.84,0,0,0,-10.3,4);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
@@ -964,7 +964,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_4 = new lib.HEAD2();
 	this.instance_4.setTransform(80,378,1,1,0,0,0,0,36);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(63).to({alpha:0},7).to({_off:true},1).wait(271));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(63).to({alpha:0},7).to({_off:true},1).wait(216).to({_off:false},0).to({alpha:1},7).wait(48));
 
 	// BKGD-orange
 	this.instance_5 = new lib.BKGD();
@@ -1045,7 +1045,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_WellChild2_160x600_atlas_1.jpg?1660087928865", id:"CO_WellChild2_160x600_atlas_1"}
+		{src:"images/CO_WellChild2_160x600_atlas_1.jpg?1660171123203", id:"CO_WellChild2_160x600_atlas_1"}
 	],
 	preloads: []
 };
