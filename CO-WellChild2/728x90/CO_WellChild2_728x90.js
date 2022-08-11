@@ -895,7 +895,7 @@ if (reversed == null) { reversed = false; }
 
 	// HS logo
 	this.instance = new lib.HS_logowhite();
-	this.instance.setTransform(386.1,45.2,0.335,0.335,0,0,0,1.1,72.1);
+	this.instance.setTransform(375.85,45.25,0.3852,0.3852,0,0,0,1.1,72.2);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
@@ -903,9 +903,9 @@ if (reversed == null) { reversed = false; }
 
 	// CO logo
 	this.instance_1 = new lib.CO_v_white();
-	this.instance_1.setTransform(622.05,45.4,0.3484,0.3484,0,0,0,0.1,56);
+	this.instance_1.setTransform(621.8,45.45,0.4006,0.4006,0,0,0,0.2,56.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(300).to({alpha:0},20).to({_off:true},1).wait(8).to({_off:false,x:505},0).to({alpha:1},14).wait(22));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(300).to({alpha:0},20).to({_off:true},1).wait(8).to({_off:false,x:512.6},0).to({alpha:1},14).wait(22));
 
 	// CTA
 	this.instance_2 = new lib.CTA();
@@ -1070,7 +1070,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CO_WellChild2_728x90_atlas_NP_1.jpg?1660159173071", id:"CO_WellChild2_728x90_atlas_NP_1"}
+		{src:"images/CO_WellChild2_728x90_atlas_NP_1.jpg?1660246709468", id:"CO_WellChild2_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };
